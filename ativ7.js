@@ -1,5 +1,5 @@
 function totalCompra(valor1, valor2, valor3){
-    total = valor1 + valor2 + valor3
+    let total = valor1 + valor2 + valor3
     console.log(`O valor total dos produto são ${total}`);
 
 };
