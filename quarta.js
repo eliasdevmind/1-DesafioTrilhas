@@ -5,7 +5,7 @@ function sementePrimo(semente) {
 }
 
 let sementes = [23, 16, 11, 8, 19, 14, 5, 21];
-console.log(`🤔Quas as sementes🥑 primas para eu plantar⛺?\n ${sementes}`)
+console.log(`🤔Quais as sementes🥑 primas para o fazendeiro plantar⛺?\n ${sementes}`)
 let primas = sementes.filter(sementePrimo);
 
 console.log(`As sementes primas que o fazendeiro deve plantar são: ${primas}`);
